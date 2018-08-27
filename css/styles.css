@@ -1,0 +1,61 @@
+html, 
+body {
+    font-family: Arial, sans-serif;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#wrapper {
+    height: 100%;
+}
+
+#map-container {
+    position: relative;
+    height: 100%;
+    display: block;
+    padding-top: 50px;
+}
+
+#map {
+    position: relative;
+    height: 100%;
+    display:block;
+}
+
+#navbar {
+    position: absolute;
+    z-index: 5;
+    width: 100%;
+    display: block;
+}
+
+.text-white {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.btn {
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+#pano {
+    width: 180px;
+    height: 180px;
+}
+
+#foursquare {
+    position: absolute;
+    bottom: 25px;
+    width: 50px;
+    left: 2px;
+}
+
+#type {
+    font-size: 15px;
+}
+
+p {
+    margin-bottom: 0;
+}
